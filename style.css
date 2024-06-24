@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+:root {
+    --primary: #FA7A34;
+    --secondary: #000000;
+    --third: #FA9C34;
+    --fourth: #FA5734;
+}
+
+* {
+    font-family: "righteous";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Events form*/
+
+#event-description {
+    background: linear-gradient(rgba(0, 0, 0, 0.829), rgb(0, 0, 0, 0.829)), url(Imagens/cosplay.jpg) no-repeat ;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.disclaimer h2,.disclaimer .event-date {
+    color: var(--primary)
+}
+
+.disclaimer h2 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.disclaimer .about-event {
+    font-size:2em;
+    text-transform: uppercase;
+    max-width: 350px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.disclaimer p {
+    font-size: 1.2em;
+    margin-bottom: .3em;
+}
+
+.disclaimer .event-date {
+    font-weight: bold;
+}
+
+.subscription-form {
+    background-color: var(--primary);
+    padding: 2em;
+    max-width: 27%;
+    border-radius: 20px;
+}
+
+.subscription-form p {
+    font-size: 1.5em;
+    color: var(--secondary);
+    margin-bottom: 1em;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8em;
+}
+
+.form-group label {
+    color: var(--secondary);
+}
+
+.form-group input, 
+.form-group select {
+    padding: 6px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    background-color: var(--fourth);
+    color: #000000;
+    text-transform: uppercase;
+    width: 100%;
+    border: 2.5px solid black;
+    padding: 12px;
+    cursor: pointer;
+    opacity: .8;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    opacity: 1.0;
+}
