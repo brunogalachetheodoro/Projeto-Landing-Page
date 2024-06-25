@@ -16,9 +16,7 @@
     box-sizing: border-box;
 }
 
-body {
-    padding-bottom: 500px;
-}
+
 
 /*Events form*/
 
@@ -108,6 +106,10 @@ body {
 
 /* Benefits */
 
+#key-benefits {
+    margin-bottom: 4em;
+}
+
 #key-benefits h2 {
     background-color: var(--fourth);
     text-align: center;
@@ -165,3 +167,148 @@ body {
     padding: 0em 4em;
     
 }
+
+/* Event location*/
+
+#location {
+    height: 400px;
+    background: linear-gradient(hsla(0, 0%, 0%, 0.822), rgba(0, 0, 0, 0.822)), url(Imagens/background-2.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    color: var(--primary);
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3em;
+}
+
+#address, #about-location {
+    max-width: 30%;
+}
+
+/* Problemas ao estilizar o icone*/
+
+#adress {
+    display: flex;
+}
+
+.location-icon {
+    margin-right: 0.5em;
+}
+
+#address-details {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#about-location h3 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.about-location p {
+    line-height: 1.5em;
+}
+
+/*Event Details Container*/
+
+#details {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.detail {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 4em;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail img {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+
+#details h2 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 2em;
+    font-weight: bold;
+    color: var(--fourth);
+}
+
+.detail h3 {
+    margin-bottom: 1em;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.detail-description {
+    width: 100%;
+    padding-left: 2em;
+
+}
+
+.detail-description ul {
+    list-style-position: inside;
+}
+
+.detail-description ul li {
+    margin-bottom: 0.4em;
+}
+
+/*CTA Section*/
+
+.cta {
+    height: 400px;
+    background: linear-gradient(hsla(0, 0%, 0%, 0.822), rgba(0, 0, 0, 0.822)), url(Imagens/Anime-cosplay.jpg);
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--fourth);
+}
+
+.cta h3 {
+    margin-bottom: 1.2em;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.cta .btn {
+    width: 30%;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+/* Footer*/
+
+#footer {
+    text-align: center;
+    color: var(--third);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer h3 {
+    font-size: 1.8em;
+    margin-bottom: .5em;
+}
+
+#footer span {
+    font-weight: bold;
+}
+
+/* Mobile */
+
